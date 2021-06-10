@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReporteFechaEspecifica" targetNamespace="http://tempuri.org/DataSetReporteFechaEspecifica.xsd" xmlns:mstns="http://tempuri.org/DataSetReporteFechaEspecifica.xsd" xmlns="http://tempuri.org/DataSetReporteFechaEspecifica.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReporteFechaEspecifica" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetReporteFechaEspecifica" msprop:Generator_UserDSName="DataSetReporteFechaEspecifica">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataSetReporteFechaEspecifica" msprop:Generator_TableClassName="DataSetReporteFechaEspecificaDataTable" msprop:Generator_TableVarName="tableDataSetReporteFechaEspecifica" msprop:Generator_TablePropName="_DataSetReporteFechaEspecifica" msprop:Generator_RowDeletingName="DataSetReporteFechaEspecificaRowDeleting" msprop:Generator_RowChangingName="DataSetReporteFechaEspecificaRowChanging" msprop:Generator_RowEvHandlerName="DataSetReporteFechaEspecificaRowChangeEventHandler" msprop:Generator_RowDeletedName="DataSetReporteFechaEspecificaRowDeleted" msprop:Generator_UserTableName="DataSetReporteFechaEspecifica" msprop:Generator_RowChangedName="DataSetReporteFechaEspecificaRowChanged" msprop:Generator_RowEvArgName="DataSetReporteFechaEspecificaRowChangeEvent" msprop:Generator_RowClassName="DataSetReporteFechaEspecificaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_Ventas" msprop:Generator_ColumnVarNameInTable="columnid_Ventas" msprop:Generator_ColumnPropNameInRow="id_Ventas" msprop:Generator_ColumnPropNameInTable="id_VentasColumn" msprop:Generator_UserColumnName="id_Ventas" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_Prenda" msprop:Generator_ColumnVarNameInTable="columnId_Prenda" msprop:Generator_ColumnPropNameInRow="Id_Prenda" msprop:Generator_ColumnPropNameInTable="Id_PrendaColumn" msprop:Generator_UserColumnName="Id_Prenda" type="xs:string" minOccurs="0" />
+              <xs:element name="Id_Cliente" msprop:Generator_ColumnVarNameInTable="columnId_Cliente" msprop:Generator_ColumnPropNameInRow="Id_Cliente" msprop:Generator_ColumnPropNameInTable="Id_ClienteColumn" msprop:Generator_UserColumnName="Id_Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
